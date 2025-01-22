@@ -1,0 +1,44 @@
+{
+	"name": "boilerplate-project-messagebaord",
+	"version": "0.0.1",
+	"description": "InfoSec project for freeCodeCamp",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"ajax": "^0.0.4",
+		"bcrypt": "^5.1.1",
+		"body-parser": "^1.15.2",
+		"chai": "^4.3.7",
+		"chai-http": "^4.3.0",
+		"cors": "^2.8.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.14.0",
+		"helmet": "^3.1.0",
+		"jquery": "^3.7.1",
+		"mocha": "^11.0.1",
+		"mongoose": "^8.9.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/freeCodeCamp/boilerplate-project-messageboard.git"
+	},
+	"keywords": [
+		"node",
+		"express"
+	],
+	"license": "MIT",
+	"directories": {
+		"test": "tests"
+	},
+	"author": "",
+	"bugs": {
+		"url": "https://github.com/freeCodeCamp/boilerplate-project-messageboard/issues"
+	},
+	"homepage": "https://github.com/freeCodeCamp/boilerplate-project-messageboard#readme",
+	"devDependencies": {
+		"@types/helmet": "^0.0.48",
+		"mocha": "^11.0.1"
+	}
+}
